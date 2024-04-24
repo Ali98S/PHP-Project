@@ -1,0 +1,728 @@
+/*Styling Sheet*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+      box-sizing: border-box;
+    
+}
+
+
+.wrap
+{
+    height: auto;
+    width: 100%;
+    min-height: calc(100vh + 5%);
+    background: linear-gradient(to right, #8DB9E7, #99FF99);
+    background-position: center;
+    background-size: cover; 
+    position: absolute;
+}
+
+
+.form-box-login
+{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+    padding: 5px;
+  
+}
+
+
+
+.dlt-frm
+{
+  text-align: center;
+}
+
+.form-box-ad
+{
+    width: 380px;
+    height: 450px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+    padding: 5px;
+    text-align: center;
+  
+}
+
+
+.form-box-reg
+{
+    width: 380px;
+    height: 700px;
+    position: relative;
+    margin: 5% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+
+.form-box-usr
+{
+    width: 600px;
+    height: 750px;
+    position: relative;
+    margin: 5% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+#profileLabel
+{
+    font-size: 11px;
+    color: gray;
+}
+
+.form-box-order
+{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    margin: 1% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+
+
+
+.input-usr
+{
+    float: left;
+    top: 180px;
+    position: absolute;
+    width: 80% 
+}
+
+
+.input-prd
+{
+    border: none;
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    width: auto ;
+    height: auto;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+#LoginText-usr
+{
+    margin: 50px 0 0 0;
+    color: #1498d5;
+    text-align: center;
+}
+
+
+.form-box-addprd
+{
+    width: 600px;
+    height: 700px;
+    position: relative;
+    margin: 5% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+
+.small {
+  font-size: smaller;
+}
+
+
+.logo
+{
+    margin-top: 20px;
+    display: inline-block;
+}
+#AdminText
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Button
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #8DB9E7, #1498d5);
+    border-radius: 30px;
+    transition: .2s;
+}
+
+.input-login
+{
+    top: 180px;
+    position: absolute;
+    width: 280px;  
+}
+
+.input-reg
+{
+    top: 180px;
+    position: absolute;
+    width: 280px; 
+}
+
+
+.input-addprd
+{
+    top: 180px;
+    bottom: 180px;
+    position: absolute;
+    width: 500px; 
+    
+}
+
+
+
+.input-checkout
+{
+    top: 90px;
+    bottom: 180px;
+    position: absolute;
+    width: 500px; 
+    
+}
+
+
+
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+
+
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to right, #8DB9E7, #99FF99); /*#2AFD46*/
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  
+}
+
+
+.submit-btn-reg
+{
+     width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to right, #8DB9E7, #99FF99) ;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+
+.submit-btn-prd
+{
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right, #8DB9E7, #99FF99) ;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.submit-btn-purchase
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    background: green ;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+.submit-btn-dlt
+{
+     width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 1 auto;
+    background: linear-gradient(to right, #ff9999, red) ;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+.chech-box
+{
+    margin: 30px 10px 30px 0;
+}
+
+span
+{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#error
+{
+    color: red;
+}
+
+#added
+{
+    color: blue;
+}
+
+#Login
+{
+    left: 50px;
+}
+
+#Register
+{
+    left: 50px;
+}
+
+#LoginText
+{
+    margin: 50px 0 0 0;
+    color: #1498d5;
+    text-align: center;
+}
+
+#DeactiveText
+{
+    margin-top: 0;
+    color: #1498d5;
+    text-align: center;
+}
+
+
+
+#nuser
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+   
+}
+
+#qlty
+{
+    color: gray;
+}
+
+#qltydrp
+{
+    border: none;
+}
+
+a:link {
+  color: #1498d5;
+}
+
+/* visited link */
+a:visited {
+  color: #1498d5;
+}
+
+
+a:hover
+{
+    color: #14d5b2;
+}
+ 
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav
+{
+    flex: 1;
+    text-align: right; 
+    
+}
+
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover
+{
+    color: #14d5b2;
+    text-decoration: underline;
+}
+
+.navCont
+{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.Welcome
+{
+   margin-right: 0;
+}
+
+
+.logo
+{
+    padding-top: 50px;
+}
+
+
+.admin-list a {
+   
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #8DB9E7; 
+    font-size: 25px;
+    margin: 5% auto;
+}
+
+
+.admin-list a:hover {
+   
+    
+    display: inline-block;
+    text-decoration: underline;
+    color: #1498d5;
+}
+
+
+#textarea
+{
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+
+.grid-container {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 200px;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 1920px) {
+  .grid-container 
+  {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  
+  .grid-item 
+  {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+ .grid-item img {
+  width: 250px;
+  height: auto;
+}
+
+
+}
+
+
+.ProductsLabel
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+     display: inline-block;
+}
+
+
+.Sort-Filter
+{
+    margin-top: 50px;
+    
+}
+
+.search
+{
+    margin-top: 20px;
+    float: right;
+    margin-right: 30px;
+}
+
+#CatText
+{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
+#Sort, #Category
+{
+    border: none;
+    width: 200px;
+    font-size: 20px;
+}
+
+
+#Search
+{
+    border: none;
+    width: 300px;
+    font-size: 30px;
+}
+
+.Apply
+{
+    margin-left: 5px;
+    padding: 10px;
+}
+
+
+.ApplySearch
+{
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.list-items-admin
+{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.User-info
+{
+    background: white;
+}
+
+
+.nav {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 30px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: #14d5b2;;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) 
+{
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+
+.ProductPage
+{
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 5% auto;
+    background: white;
+    padding: 10px;
+   
+
+}
+
+
+
+.ProductDetails
+{
+    margin-top: 0;
+    margin-right: 0;
+    display:inline-block;
+    text-align: right;
+    justify-content: right;
+}
+
+
+.ProductImage
+{
+   display:inline-block;
+   width: 50%;
+}
+
+   .row {
+        display: flex;
+    }
+    .column {
+        flex: 50%;
+    }
+    
+    
+    
